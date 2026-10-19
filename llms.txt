@@ -1,0 +1,28 @@
+# Trovato Vino
+
+> Loja de vinhos e casa enogastronômica no Parque Continental, em Osasco/SP, em frente ao Shopping Continental. A curadoria é do sommelier Júlio Trovato, com a Itália em destaque. Dá para provar vinho em taça antes de levar a garrafa, fazer degustações harmonizadas e comer panini, bruschette e tábuas de frios, com pães e focaccias feitos pela Raquel.
+
+## Dados da loja
+
+- Endereço: Rua Eva Terpins, 258, Parque Continental, Osasco/SP, CEP 05327-030 (em frente ao Shopping Continental)
+- Horário: quarta e quinta, 13h30 às 21h; sexta, 13h30 às 22h; sábado, 11h30 às 22h; fechado de domingo a terça
+- WhatsApp: (11) 99408-6827 — https://wa.me/5511994086827
+- Instagram: https://www.instagram.com/trovatovino/
+- Google Maps: https://maps.app.goo.gl/27VRrBLteyqqNWE79
+- Venda proibida para menores de 18 anos
+
+## O que a casa oferece
+
+- Vinhos com curadoria, de vários países, com a Itália em destaque; o Júlio indica a garrafa pela ocasião, pelo prato e pelo orçamento
+- Vinho em taça, a partir de R$ 25
+- Degustação Trovato: três rótulos especiais com queijos e antipasti, R$ 89 por pessoa
+- Degustação Premium: queijos e antipasti com harmonização de vinhos, R$ 149 por pessoa
+- Panini (R$ 79 a R$ 145), bruschette (R$ 69 a R$ 99), tábuas de frios (R$ 89 e R$ 129)
+- Massas frescas aos sábados, a partir de R$ 39,90, feitas com a Gaeta Masseria
+- Presentes: vinho na caixa de madeira com o logo da casa gravado
+- Confraria Trovato em Casa: clube de vinhos com uma seleção por mês
+- Eventos: La Notte Italiana (jantar harmonizado com vinhos de uma região da Itália), Vino per Lei (encontro só para mulheres), rodízio de pizza e vinhos e confraternizações
+
+## Páginas
+
+- [Página principal](https://{{DOMINIO}}/): carta, eventos, avaliações, dúvidas frequentes e como chegar

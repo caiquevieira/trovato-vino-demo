@@ -3,16 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trovato Vino | Loja de vinhos no Parque Continental</title>
-  <meta name="description" content="Loja de vinhos com curadoria do sommelier Júlio Trovato: taças, degustações e panini. Rua Eva Terpins, 258, em frente ao Shopping Continental.">
+  <title>Loja de vinhos no Parque Continental, Osasco | Trovato Vino</title>
+  <meta name="description" content="Loja de vinhos em Osasco, no Parque Continental, com curadoria do sommelier Júlio Trovato. Taças, degustações e panini. Peça sua indicação no WhatsApp.">
   <link rel="canonical" href="https://{{DOMINIO}}/">
   <meta name="theme-color" content="#0E0C0A">
+  <meta name="geo.region" content="BR-SP">
+  <meta name="geo.placename" content="Osasco">
+  <meta name="geo.position" content="-23.547502;-46.7584857">
+  <meta name="ICBM" content="-23.547502, -46.7584857">
   <!-- DEMO:INICIO -->
   <meta name="robots" content="noindex,nofollow">
   <!-- DEMO:FIM -->
 
   <link rel="icon" href="assets/icons/favicon.ico" sizes="32x32">
-  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icons/favicon.png" type="image/png" sizes="96x96">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="preload" href="assets/fonts/montserrat.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/pinyon-script.woff2" as="font" type="font/woff2" crossorigin>
@@ -20,25 +24,27 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="Trovato Vino">
-  <meta property="og:title" content="Trovato Vino | Loja de vinhos no Parque Continental">
-  <meta property="og:description" content="Loja de vinhos com curadoria do sommelier Júlio Trovato: taças, degustações e panini. Rua Eva Terpins, 258, em frente ao Shopping Continental.">
+  <meta property="og:title" content="Loja de vinhos no Parque Continental, Osasco | Trovato Vino">
+  <meta property="og:description" content="Loja de vinhos em Osasco, no Parque Continental, com curadoria do sommelier Júlio Trovato. Taças, degustações e panini. Peça sua indicação no WhatsApp.">
   <meta property="og:url" content="https://{{DOMINIO}}/">
   <meta property="og:image" content="https://{{DOMINIO}}/assets/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Júlio Trovato em frente à loja Trovato Vino, na Rua Eva Terpins, em Osasco">
 
-  <link rel="stylesheet" href="assets/css/styles.css?v=202610191704">
-  <script src="assets/js/main.js?v=202610191704" defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css?v=202610191738">
+  <script src="assets/js/main.js?v=202610191738" defer></script>
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LiquorStore",
+    "@id": "https://{{DOMINIO}}/#loja",
     "name": "Trovato Vino",
-    "description": "Loja de vinhos e casa enogastronômica com curadoria do sommelier Júlio Trovato.",
+    "description": "Loja de vinhos e casa enogastronômica no Parque Continental, em Osasco/SP, em frente ao Shopping Continental. Curadoria do sommelier Júlio Trovato, com a Itália em destaque; vinho em taça, degustações harmonizadas, panini, bruschette e tábuas de frios, com pães e focaccias feitos pela Raquel.",
     "url": "https://{{DOMINIO}}/",
     "image": "https://{{DOMINIO}}/assets/img/og-image.jpg",
-    "logo": "https://{{DOMINIO}}/assets/img/logo-recorte.webp",
+    "logo": "https://{{DOMINIO}}/assets/img/logo-trovato-vino.webp",
     "telephone": "+5511994086827",
     "priceRange": "R$ 25 – R$ 310",
     "address": {
@@ -59,20 +65,32 @@
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "13:30", "closes": "22:00" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "11:30", "closes": "22:00" }
     ],
-    "sameAs": ["https://www.instagram.com/trovatovino/", "https://maps.app.goo.gl/27VRrBLteyqqNWE79"]
+    "hasMap": "https://maps.app.goo.gl/27VRrBLteyqqNWE79",
+    "areaServed": ["Parque Continental", "Osasco", "São Paulo"],
+    "knowsAbout": ["vinhos italianos", "harmonização de vinhos", "degustação de vinhos", "presentes com vinho"],
+    "sameAs": ["https://www.instagram.com/trovatovino/", "https://maps.app.goo.gl/27VRrBLteyqqNWE79"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "A carta da Trovato Vino",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Taça de vinho" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 25, "priceCurrency": "BRL" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Degustação Trovato", "description": "Três rótulos especiais com queijos e antipasti, por pessoa." }, "price": 89, "priceCurrency": "BRL" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Degustação Premium", "description": "Queijos e antipasti com harmonização de vinhos, por pessoa." }, "price": 149, "priceCurrency": "BRL" },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Panini" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 79, "maxPrice": 145, "priceCurrency": "BRL" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Bruschette" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 69, "maxPrice": 99, "priceCurrency": "BRL" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Tábuas de frios" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 89, "maxPrice": 129, "priceCurrency": "BRL" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Confraria Trovato em Casa", "description": "Clube de vinhos: uma seleção por mês, com a história de cada garrafa e sugestões de harmonização." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Presentes com vinho", "description": "Vinho na caixa de madeira com o logo da casa gravado." } }
+      ]
+    }
   }
   </script>
 </head>
 <body id="topo" class="bg-avorio text-inchiostro font-corpo antialiased">
   <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[70] focus:bg-avorio focus:px-4 focus:py-2 focus:rounded-marca">Pular para o conteúdo</a>
 
-  <!-- Ícones reutilizados e a silhueta da garrafa do logo (usada como recorte da foto do hero) -->
+  <!-- Ícones reutilizados -->
   <svg width="0" height="0" class="absolute" aria-hidden="true" focusable="false">
-    <defs>
-      <clipPath id="garrafa-recorte" clipPathUnits="objectBoundingBox">
-        <path d="M.40 0H.60V.17C.60 .25 1 .26 1 .37V.97Q1 1 .96 1H.04Q0 1 0 .97V.37C0 .26 .40 .25 .40 .17Z"/>
-      </clipPath>
-    </defs>
     <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></symbol>
     <symbol id="garrafa-traco" viewBox="0 0 40 122"><g fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"><path d="M15.5 1h9v27c0 6 13.5 9 13.5 23v65a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V51c0-14 13.5-17 13.5-23Z"/><path d="M15.5 9h9"/></g></symbol>
     <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></g><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></symbol>
@@ -82,7 +100,7 @@
 <header class="sticky top-0 z-40 border-b border-oro/25 bg-nero/95 text-avorio backdrop-blur">
   <div class="container-lp flex h-16 items-center justify-between gap-4 md:h-20">
     <a href="#topo" class="flex shrink-0 items-center" aria-label="Trovato Vino, voltar ao início">
-      <img src="assets/img/logo-recorte.webp" alt="Trovato Vino" width="509" height="600" class="h-12 w-auto md:h-16">
+      <img src="assets/img/logo-trovato-vino.webp" alt="Trovato Vino" width="494" height="584" class="h-12 w-auto md:h-16">
     </a>
 
     <nav aria-label="Principal" class="hidden lg:block">
@@ -145,17 +163,15 @@
       </dl>
     </div>
 
-    <figure class="garrafa mx-auto w-[62%] max-w-[22rem] sm:w-[48%] lg:w-full">
+    <figure class="simbolo mx-auto w-[86%] max-w-[28rem] sm:w-[62%] lg:w-full">
       <img src="assets/img/hero-1600.webp"
            srcset="assets/img/hero-800.webp 800w, assets/img/hero-1600.webp 1440w"
-           sizes="(min-width: 1024px) 22rem, 62vw"
+           sizes="(min-width: 1024px) 28rem, 86vw"
            width="1440" height="1800"
            alt="Júlio Trovato em frente à loja Trovato Vino, com o letreiro e as vitrines da Rua Eva Terpins"
            fetchpriority="high"
-           class="object-[78%_center]">
-      <svg class="garrafa-contorno" viewBox="0 0 100 190" preserveAspectRatio="none" aria-hidden="true">
-        <path pathLength="1" d="M40 0H60V32.3C60 47.5 100 49.4 100 70.3V184.3Q100 190 96 190H4Q0 190 0 184.3V70.3C0 49.4 40 47.5 40 32.3Z"/>
-      </svg>
+           class="simbolo-foto object-[center_68%]">
+      <img src="assets/img/hero-simbolo.webp" alt="" width="686" height="650" class="simbolo-traco">
     </figure>
   </div>
 </section>
@@ -312,6 +328,27 @@
       </li>
     </ul>
   </div>
+
+  <!-- Atualizar junto com a data e o preço visíveis da próxima Notte Italiana -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEvent",
+    "name": "La Notte Italiana: Vêneto",
+    "description": "Jantar em três tempos, cada prato com um vinho de uma região da Itália, conduzido pelo sommelier Júlio Trovato.",
+    "startDate": "2026-10-30T19:00:00-03:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "image": "https://{{DOMINIO}}/assets/img/evento-notte-italiana-toscana.webp",
+    "location": {
+      "@type": "Place",
+      "name": "Trovato Vino",
+      "address": { "@type": "PostalAddress", "streetAddress": "Rua Eva Terpins, 258", "addressLocality": "Osasco", "addressRegion": "SP", "postalCode": "05327-030", "addressCountry": "BR" }
+    },
+    "organizer": { "@id": "https://{{DOMINIO}}/#loja" },
+    "offers": { "@type": "Offer", "price": 310, "priceCurrency": "BRL", "url": "https://{{DOMINIO}}/#eventos", "availability": "https://schema.org/LimitedAvailability" }
+  }
+  </script>
 </section>
 <!-- /SECTION: eventos -->
 
@@ -584,7 +621,7 @@
 <footer class="bg-nero pt-16 pb-28 text-[0.95rem] text-avorio md:pb-10">
   <div class="container-lp grid gap-12 md:grid-cols-12">
     <div class="md:col-span-4">
-      <img src="assets/img/logo-recorte.webp" alt="Trovato Vino" width="509" height="600" loading="lazy" class="h-24 w-auto">
+      <img src="assets/img/logo-trovato-vino.webp" alt="Trovato Vino" width="494" height="584" loading="lazy" class="h-24 w-auto">
       <address class="mt-6 not-italic text-avorio/75">Rua Eva Terpins, 258, Parque Continental, Osasco/SP, 05327-030</address>
       <p class="mt-2 text-avorio/75">Qua e qui, 13h30–21h; sex, 13h30–22h; sáb, 11h30–22h</p>
     </div>
