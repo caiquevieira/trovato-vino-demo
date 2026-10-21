@@ -149,6 +149,19 @@ function iniciarGaleria() {
   });
 }
 
+/* Pop-up de foto: [data-abrir-dialogo="<id>"] abre o <dialog>; clique fora da foto fecha. */
+function iniciarDialogos() {
+  document.querySelectorAll('[data-abrir-dialogo]').forEach((botao) => {
+    const dialogo = document.getElementById(botao.dataset.abrirDialogo);
+    if (!dialogo?.showModal) return;
+    botao.addEventListener('click', () => dialogo.showModal());
+    dialogo.addEventListener('click', (e) => {
+      if (e.target === dialogo) dialogo.close();
+    });
+  });
+}
+
 iniciarConsentimento();
 iniciarTracking();
 iniciarGaleria();
+iniciarDialogos();
