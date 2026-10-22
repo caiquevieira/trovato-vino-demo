@@ -1,7 +1,7 @@
 /* Configuração do projeto: preencher a partir do briefing.md.
    IDs vazios = nenhum script de terceiros é carregado e o banner de cookies não aparece. */
 const CONFIG = {
-  ga4Id: '', // ex.: 'G-XXXXXXXXXX'
+  ga4Id: 'G-8BB8JTSCKL',
   metaPixelId: '', // ex.: '123456789012345'
 };
 
