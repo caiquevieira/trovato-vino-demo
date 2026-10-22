@@ -34,8 +34,8 @@
   <meta property="og:image:alt" content="Júlio Trovato em frente à loja Trovato Vino, na Rua Eva Terpins, em São Paulo">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="stylesheet" href="assets/css/styles.css?v=202610221817">
-  <script src="assets/js/main.js?v=202610221817" defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css?v=202610221825">
+  <script src="assets/js/main.js?v=202610221825" defer></script>
 
   <script type="application/ld+json">
   {
@@ -246,6 +246,18 @@
           <li class="py-5">
             <p class="carta-linha text-lg font-medium sm:text-xl"><span>Panini</span><span class="preco text-lg">R$ 79 a R$ 145</span></p>
             <p class="mt-1.5 text-inchiostro-suave">Na ciabatta ou na focaccia, com burrata, prosciutto, pastrami ou mortadela com pistache. Servem até duas pessoas.</p>
+            <button type="button" class="link-carta mt-3 inline-block cursor-pointer text-vino" data-abrir-dialogo="dialogo-panino">Ver a foto de um panino</button>
+            <dialog id="dialogo-panino" class="dialogo" aria-labelledby="dialogo-panino-titulo">
+              <figure>
+                <img src="assets/img/panino-mortadela-pistache.webp" width="960" height="1280" loading="lazy" decoding="async"
+                     alt="Panino de mortadela com pistache, queijo branco e rúcula na focaccia, servido numa tábua de madeira"
+                     class="block max-h-[78vh] w-auto">
+                <figcaption id="dialogo-panino-titulo" class="mt-3 text-sm text-avorio/80">Panino de mortadela com pistache.</figcaption>
+              </figure>
+              <form method="dialog">
+                <button class="dialogo-fechar" aria-label="Fechar">&times;</button>
+              </form>
+            </dialog>
           </li>
           <li class="py-5">
             <p class="carta-linha text-lg font-medium sm:text-xl"><span>Bruschetta</span><span class="preco text-lg">R$ 69 a R$ 99</span></p>
